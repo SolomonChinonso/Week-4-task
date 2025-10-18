@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./LOGO.jpg" alt="" />
+        <h1>Sol<em>Techs</em></h1>
+      </div>
+
+      <div class="harmburgerX">
+      <input type="checkbox" id="menu-toggle"/>
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#hero-section">About</a></li>
+          |
+
+          <li><a href="#projects">Projects</a></li>
+          |
+
+          <li><a href="#contact-form">ContactUs</a></li>
+        </ul>
+      </nav>
+      </div>
+
+      <div class="search-container">
+        <input type="search" placeholder="Search here..." /><i
+          class="fa fa-search"
+        ></i>
+      </div>
+    </header>
+
+    <div class="search-container2">
+        <input type="search" placeholder="Search here..."><i
+          class="fa fa-search"
+        ></i>
+      </div>
+    
+
+    <section id="hero-section">
+      <img src="./Solomon_img.jpg" alt="Solomon's-image" />
+
+      <div class="AboutMe">
+        <h1>A little About Me</h1>
+        <p class="About-me">
+          Hello! My name is <strong>Nnadi Chinonso</strong><br />
+          I'm a budding <em>FRONTEND DEVELOPER</em>. <br />
+          with a love for creativity, design <br />
+          and Technology.
+        </p>
+      </div>
+    </section>
+
+    <main id="projects">
+      <h1>MY PROJECTS</h1>
+
+      <div class="projects">
+        <div class="project">
+          <img src="./PROJECT1.jpg" alt="project-1" />
+          <div>
+            <h2>Result summary component</h2>
+            <p>
+              This project has something for everyone. It's a HTML and CSS only project, but the JSON file is available for further practice.
+            </p>
+          </div>
+          
+        </div>
+
+        <div class="project">
+          <img src="./PROJECT2.jpg" alt="project-2" />
+          <div>
+            <h2>Imteractive rating component</h2>
+            <p>
+              This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript.
+            </p>
+          </div>
+          
+        </div>
+
+        <div class="project">
+          <img src="./PROJECT3.jpg" alt="project-3" />
+          <div>
+            <h2>Bento Grid</h2>
+            <p>
+              This project is perfect for testing your CSS Grid and responsive skills with this bento grid layout.
+            </p>
+            
+          </div>
+          
+        </div>
+
+        
+        </div>
+      </div>
+    </main>
+
+    <form method="post" action="#" id="contact-form">
+      <h4>Contact Us</h4>
+      <label for="first-name"></label><br />
+      <input type="text" placeholder="First Name" required /><br />
+
+      <label for="first-name"></label><br />
+      <input type="text" placeholder="Last Name" required /><br />
+
+      <label for="phone-number"></label><br />
+      <input type="tel" id="phone-number" placeholder="Phone number" />
+      <br />
+
+      <label for="email"></label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder=" Email"
+        required
+      /><br />
+
+      <label for="message"></label><br />
+      <textarea
+        name=""
+        id="message"
+        placeholder="Messages..."
+        required
+      ></textarea
+      ><br />
+
+      <button class="button" type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <h4>Follow me</h4>
+      <div class="socials">
+        <a
+          href="https://wa.me/2347085566195"
+          target="_blank"
+          class="watsapp-float"
+          ><img src="./WATSAPP.jpg" alt=""
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/chinonso-nnadi-512a86122?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          ><img src="./linkdin.jpg" alt=""
+        /></a>
+
+        <a
+          href="https://x.com/NnadiSolomonC?t=ggpQcqxjaIpRwRFltA_QRQ&s=09"
+          target="_blank"
+          ><img src="./X.jpg" alt=""
+        /></a>
+      </div>
+      <div>
+        <p>&copy;Made by <em>Chinonso Nnadi(WD)</em></p>
+      </div>
+    </footer>
+  </body>
+</html>
