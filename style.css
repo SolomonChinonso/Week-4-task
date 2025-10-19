@@ -134,9 +134,6 @@ i{
   cursor: pointer;
   
 }
-.projects .push-button{
-  display: flex;
-}
 
 #hero-section{
   display: flex;
@@ -148,6 +145,10 @@ button{
   border: 0;
   
   object-fit: contain;
+}
+button:hover{
+  cursor:pointer;
+  transform: 1.02s;
 }
 button >img{
   
@@ -175,7 +176,7 @@ input{
   
 }
 .projects :hover{
-  cursor: pointer;
+ 
   transform: scale(1.02);
 }
 #projects{
